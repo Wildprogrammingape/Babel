@@ -1,0 +1,16 @@
+node用来run JS code directly in our computer，直接在电脑上运行JS code而不是在browser中
+
+
+
+
+
+npm: package manager，是node的包管理
+
+
+
+当创建一个project, 需要第三方 package比如Babel时， 最好用npm init创建package.json的文件，
+
+显示我们下载的package,以及该project的相关信息如author等:
+
+
+npm init 创建package.json  用来显示项目相关信息
