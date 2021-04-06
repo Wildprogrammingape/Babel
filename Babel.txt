@@ -1,0 +1,16 @@
+Babel用来将modern JS code转化为低版本的代码，保证所有browser兼容
+
+使用Babel的四个步骤：
+
+1. Node.js已下载
+
+2. npm init (create a package.json file来显示项目相关信息)
+
+3. npm install @babel/core @babel/cli --save-dev (下载babel的package)
+
+4. npm install @babel/preset-env --save-dev (下载babel的预设)
+
+最后创建.babelrc文件，内容如下，来注明babel的preset
+{
+    "presets": ["@babel/preset-env"]
+}
